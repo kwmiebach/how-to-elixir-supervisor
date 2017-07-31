@@ -4,5 +4,20 @@ An empty supervisor template for elixir 1.5 / mix.
 
 See http://culttt.com/2016/09/07/working-supervisors-elixir/
 
-Code belongs to Philip Brown http://culttt.com/author/philipbrown/
+
+1. Check out the code and start iex: `iex -S mix`
+
+2. Find the pid of the worker:
+
+    pid = Process.whereis(Flakey.Service)
+
+3. Kill the worker:
+
+    Process.exit(pid, :kill)
+
+4. Go to step 2 and verify that there is a new process with a new pid. Repeat 2 or 3 randomly. The service will allways restart as soon as yoou kill it
+
+----
+
+Code belongs to Philip Brown http://culttt.com/author/philipbrown/ thank you
 
