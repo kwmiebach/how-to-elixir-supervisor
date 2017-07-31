@@ -5,7 +5,13 @@ An empty supervisor template for elixir 1.5 / mix.
 See http://culttt.com/2016/09/07/working-supervisors-elixir/
 
 
-1. Check out the code and start iex: `iex -S mix`
+1. You need elixir and mix, elixir 1.5 works.
+
+1. Check out the code and start iex: 
+
+    git checkout git@github.com:kwmiebach/how-to-elixir-supervisor.git
+    cd how-to-elixir-supervisor
+    iex -S mix`
 
 2. Find the pid of the worker:
 
