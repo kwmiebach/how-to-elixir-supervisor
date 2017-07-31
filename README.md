@@ -15,7 +15,7 @@ See http://culttt.com/2016/09/07/working-supervisors-elixir/
 
     Process.exit(pid, :kill)
 
-4. Go to step 2 and verify that there is a new process with a new pid. Repeat 2 or 3 randomly. The service will allways restart as soon as yoou kill it
+4. Go to step 2 and verify that there is a new process with a new pid. Repeat 2 or 3 randomly. (Use the up arrow key.) The service will allways restart as soon as you kill it
 
 ----
 
